@@ -1,0 +1,51 @@
+web api project
+tital:bing apis
+
+Team  :
+1-yasmine abdelsadek
+2-hiam 
+
+
+Services:
+
+1-GeocodeService
+  The Geocode Service offers methods to geocode addresses.
+  url:http://dev.virtualearth.net/webservices/v1/geocodeservice/geocodeservice.svc?wsdl
+   Test :
+  1-Type “1 Microsoft Way, Redmond, WA” into the input textbox.
+  2-Press the “Geocode” button.
+
+2-SearchService
+  The Search Service provides a single method
+  url:http://dev.virtualearth.net/webservices/v1/searchservice/searchservice.svc?wsdl
+   Test:
+  1-Enter “sushi; Arvada, CO” into the input textbox.
+  2-Press the “Search” button.
+
+
+3-ImageryService
+  The imagery service provides two methods. The first method allows you to retrieve map images in any of the standard Bing Maps styles. The second method allows you to retrieve metadata related to a specific image.
+url:http://dev.virtualearth.net/webservices/v1/imageryservice/imageryservice.svc?wsdl
+  Test:
+   1-Enter “47.621, -122.349” into the text box.
+  2-Press the “Request Image” button.
+
+
+4-RouteService
+   The Route Service provides methods for calculating a route between points, and calculating directions to a point of interest from each of the cardinal directions.
+url:http://dev.virtualearth.net/webservices/v1/routeservice/routeservice.svc?wsdl
+    Test:
+   1-Enter “43.89, -79.23; 43.89, -79.13; 43.89, -79.03” into the text box
+   2-Press the “Route” button.
+
+
+5-translatorService
+url:http://api.microsofttranslator.com/v1/soap.svc
+   Text:
+  1- enter "text with any language" into the text box
+  2- press the "translate" button.
+  3-convert the text to english 
+
+
+
+note :apidoctor solution this is api with angular js
